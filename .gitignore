@@ -1,11 +1,30 @@
+# Ignore everything by default
+/*
+
+# Allow only these folders
+!/Database/
+!/Models/
+!/Views/
+!/Routing/
+!/Helpers/
+!/config/
+!/public/
+
+# Allow only these files
+!/composer.json
+!/composer.lock
+!/console
+!/index.php
+!/init-app.php
+!/README.md
+!/.gitignore
+
+# Ignore junk and temp
 /vendor/
-/public/uploads/
-/public/thumbnails/
-/public/images/*        # if you store generated thumbs here
-/publicjsapp.js         # your stray file
-/Viewscomponentupdate-computer-part.php  # stray
-/TypesValueType.php                         # stray
-/HelpersValidationHelper.php                # stray
-config/database.php       # local secrets (keep example file instead)
-.DS_Store
-Thumbs.db
+/temp-backup/
+/scripts/
+/Response/
+/Types/
+/Commands/
+/client.html
+
